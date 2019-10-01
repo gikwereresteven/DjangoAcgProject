@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: rgb(253, 255, 254);
+    color:whitesmoke;
+}
+.navbar-brand img {
+   width: 100px;
+   height: 40px;
+   margin-left: 100px;
+   margin-top:10px;
+}
+.ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 50px;
+    width: 80px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: rgb(19, 18, 18) !important;
+    font-weight: 600;
+}
+.nav li {
+    display: block;
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: black;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.nav-item a {
+    color: black;
+}
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 80px;  
+}
+.ul li a:hover {
+    background-color: rgba(87, 66, 66, 5.096);
+    width: 115px;
+}
+.navbar-brand img{
+    height: 50px;
+    margin-left: 150px;
+    padding-top: 12px;
+}
+.carousel-inner{
+   width:100%;
+   height: 300px;
+    margin-top: 90px;
+
+}
+.contact-form {
+    margin-top: 100px;
+    box-shadow: 2px 0px 50px 2px #888888;
+    text-align: center;
+    text-emphasis: size;
+    background-color: #b3bbb302;
+    color:rgb(49, 36, 36);
+}
+.text-center {
+    margin-top: 10px;
+}
+.services {
+    margin-top: -17px;
+}
+.row-background {
+    background-color: #b3bbb302;
+    width: 100%;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.services-backround {
+    background-color: #abadab28;
+    padding:20px;
+    width: 100%;   
+} 
+.project-vision-mission{
+    box-shadow: 10px 10px 8px #888888;
+}
+.about_image-height {
+    height: 250px;
+    width: 90%;
+    margin-top: 100px;
+    box-shadow: 20px 20px 10px #888888;
+}
+.awasome{
+   
+    font-family: 'Princess Sofia', cursive;
+    text-shadow: 1px 1px black;
+    color: #011A98 !important;
+}
+.footerblue {
+    width: 100%;
+    margin-top: -10px;
+    background-color: #011A98;
+    color: white;
+}
+.formcontact {
+    margin-top: 400px;
+}
+.clasformstyle {
+    margin-top: 50px;
+}
+.top-space {
+    background-color: #799038;
+}
+.size-imbuto {
+    background-color: #799038;
+    width: 200px;
+    height: 50px;
+}
+.product-name { 
+   margin-top:150px; 
+    margin-left: 50px;   
+}
+.imbito1 {
+    border-radius: 50%;
+    background-color: #c1cac128
+}
+.imbuto_text {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+#body-imbuto{
+    margin-left:20px;
+}
+.imbuto-menu {
+    /* margin-top: 63px; */
+    margin-top: 90px;
+}
+.card {
+    box-shadow: 15px 15px 8px 10px rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 6px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+}
+.form-inline{
+    float: right;
+}
+.imbuto-colomun {
+    border-radius: 50px;
+    background-color: #333;
+}
+.d-block{
+    height: 700px;
+}
+.ifumbile-style{
+    /* background-color: rgba(53, 62, 78, 0.856); */
+    background: rgba(130, 148, 241, 0.452);
+    height:auto;
+}
+.columun-container{
+    margin-top: 30px;
+}
+.ifumbire-picture{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+.image-border{
+    width: 100px;
+    height: 100px;
+ border-radius: 50%;
+ margin-left: 150px;
+ margin-top: 20px;
+}
+.ifumbire-image img{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    box-shadow: 20px 0px 50px 20px #888888;
+}  
+.image-about{
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    box-shadow: 2px 0px 50px 2px #888888;
+}
+.about-content{
+    margin-top: 120px;
+    scroll-padding-left: 30px;
+    margin-left: 50px; 
+}  
+.border-image{
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+}
+.card-body .border-image{
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#ifumbire-color{
+    background-color:  #011A98;
+    color:#f1f1f1;
+}
+.container h2{
+   text-align: center;
+   font-weight: 400; 
+   color:rgba(46, 87, 63, 0.842);  
+}
+.card-imbure{
+    width: 300px;
+    height: 200px;
+}
+.imfumbire-column{
+    margin-top: 20px;
+}
+.design-bground .card{
+    color:black;
+    }
+.contact-title {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #799038;
+    font-size: 30px;
+}
+.btn-success{
+    text-align: center;
+    background-color: rgba(23, 126, 100, 0.801);
+    margin-bottom: 10px;
+}
+.card-img-top{
+    width: 100%;
+    height: 120px;
+}
+.imishwi_images{
+    width: 100%;
+    height: 150px;
+}
+.footer-word{
+    background-color: #011A98;
+    color: #f1f1f1;
+}
+.footer-content{
+    padding-top: 30px;  
+    box-shadow: 5px 2px 15px 3px #888888;
+}
+.social-media{
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-left: 30%;
+    margin-top: 30px;   
+}
+#goals-mission{
+  padding-top:10px; 
+    position: relative;
+    margin-top: 50px;
+    color:#080808;
+}
+.vision-goals{
+    background-color: #fffbfbc7;
+    color:black;
+    margin-top:7%;
+}
+/* .card-img-top{
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
+} */

@@ -1,0 +1,240 @@
+{% extends 'acgapplication/base.html' %}
+
+{% block content %}
+<div class="text-center top-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-sm-8">
+
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- The end of the upper part containing slide and pub part -->
+<div class="container-fluid main-body">
+  <div class="row">
+    <div class="col-sm-1">
+
+    </div>
+    <div class="col-sm-2">
+      <ul class="list-group imbuto-menu">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <ul class="nav flex-column">
+            <li class="nav-item active">
+              <a class="nav-link " href="{% url 'imbuto' %}">Imbuto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'imishwi' %}">Imishwi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'ifumbire' %}">Ifumbire</a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <div class="album py-5">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-12  imbuto_text">
+              <h2>Details About Fruits we have</h2>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+</div>
+<div class="container ">
+  <section id="body-imbuto">
+    <div class="row">
+      <div class="col-md-3 ">
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/apple.png" %}">
+        <p></p>
+
+        <b class="product-name">Pome</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/avoca.png" %}">
+        <p></p>
+        <b class="product-name">Avocat</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" height="180px;" src="{% static "acgapplication/inke.jpg" %}">
+
+        <p></p>
+        <b class="product-name">strawberries</b>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="container">
+  <section id="body-imbuto">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" src="{% static "acgapplication/banana.png" %}">
+        <p></p>
+        <p></p>
+        <b class="product-name">Bananas</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/watermellon.jpg" %}">
+        <p></p>
+        <b class="product-name">Watermelon</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/mang.jpg" %}">
+        <p></p>
+        <b class="product-name">Mangos</b>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="container">
+  <section id="body-imbuto">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" src="{% static "acgapplication/nana.jpg" %}">
+        <p></p>
+        <b class="product-name">Pineaple</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" src="{% static "acgapplication/ibinyomoro.png" %}">
+        <p></p>
+
+        <b class="product-name">Ibinyomoro</b>
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/indi.jpg" %}">
+        <p></p>
+        <b class="product-name">Indimu</b>
+
+      </div>
+
+    </div>
+  </section>
+</div>
+<div class="container">
+  <section id="body-imbuto">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" ; src="{% static "acgapplication/amatunda.png" %}">
+        <p></p>
+        <b class="product-name">Passion</b>
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 70%" src="{% static "acgapplication/orage.png" %}">
+        <p></p>
+
+        <b class="product-name">Orange</b>
+
+      </div>
+      <div class="col-md-3">
+        {% load static %}
+        <img style="width: 75%" ; src="{% static "acgapplication/papa.png" %}">
+        <p></p>
+
+        <b class="product-name">Papaya</b>
+
+      </div>
+
+    </div>
+  </section>
+</div>
+<br>
+<!-- <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">banana</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">
+                      Quick sample text to create the card title and make up the body of the card's content.</p>
+                  </div>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+                </div></div>
+              </div>
+              <div class="col-md-3">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+                </div></div>
+              </div>
+              <div class="col-md-3">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+                </div></div>
+            </div> -->
+</div>
+</div>
+
+<footer>
+  {% include "acgapplication/footer.html" %}
+</footer>
+
+
+
+
+{% endblock %}

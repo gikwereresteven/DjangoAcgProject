@@ -1,0 +1,233 @@
+{% extends 'acgapplication/base.html' %}
+
+{% block content %}
+<div class="text-center top-space">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-sm-8">
+
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- The end of the upper part containing slide and pub part -->
+<div class="container main-body">
+  <div class="row">
+    <div class="col-sm-1">
+
+    </div>
+    <div class="col-sm-2 imbuto-menu">
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <ul class="nav flex-column">
+            <li class="nav-item active">
+              <a class="nav-link " href="{% url 'imbuto' %}">Imbuto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'imishwi' %}">Imishwi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'ifumbire' %}">Ifumbire</a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-3 py-5">
+      <div class="card-body py-5 mx-1">
+        {% load static %}
+        <img style="width:65%" class="border-image" ; src="{% static "acgapplication/igishimbo.jpg" %}">
+
+        <!--Title-->
+        <h4 class="card-title  text-center">Title</h4>
+        <!--Text-->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p>
+        <!-- <a href="#" class="btn btn-indigo">Button</a> -->
+      </div>
+
+    </div>
+    <div class="col-md-3 py-5">
+      <div class="card-body py-5 mx-1">
+        {% load static %}
+        <img style="width: 60%" class="border-image" ; src="{% static "acgapplication/ifumbi.jpg" %}">
+
+        <!--Title-->
+        <h4 class="card-title  text-center"> Title</h4>
+        <!--Text-->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p>
+        <!-- <a href="#" class="btn btn-indigo">Button</a> -->
+      </div>
+    </div>
+    <div class="col-md-3 py-5">
+      <div class="card-body py-5 mx-1">
+        {% load static %}
+        <img style="width: 70%" class="border-image" ; src="{% static "acgapplication/majagu.jpg" %}">
+
+
+        <!--Title-->
+        <h4 class="card-title text-center"> Title</h4>
+        <!--Text-->
+        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p>
+        <!-- <a href="#" class="btn btn-indigo">Button</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <div class="container ifumbire-details">
+  <div class="row">
+    <div class="col-md-3"> -->
+
+
+<!-- </div>
+    <div class="col-md-3">
+      <div class="card-body mx-1">
+        {% load static %}
+        <img style="width:65%" class="border-image" ; src="{% static "acgapplication/igishimbo.jpg" %}"> -->
+
+<!--Title-->
+<!-- <h4 class="card-title  text-center">Title</h4> -->
+<!--Text-->
+<!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p> -->
+<!-- <a href="#" class="btn btn-indigo">Button</a> -->
+<!-- </div>
+
+    </div>
+    <div class="col-md-3">
+      <div class="card-body mx-3">
+        {% load static %}
+        <img style="width: 60%" class="border-image border boder-dark" ; src="{% static "acgapplication/ifumbi.jpg" %}"> -->
+
+<!--Title-->
+<!-- <h4 class="card-title  text-center"> Title</h4> -->
+<!--Text-->
+<!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p> -->
+<!-- <a href="#" class="btn btn-indigo">Button</a> -->
+<!-- </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card-body mx-2">
+        {% load static %}
+        <img style="width: 70%" class="border-image" ; src="{% static "acgapplication/majagu.jpg" %}"> -->
+
+
+<!--Title-->
+<!-- <h4 class="card-title text-center"> Title</h4> -->
+<!--Text-->
+<!-- <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p> -->
+<!-- <a href="#" class="btn btn-indigo">Button</a> -->
+<!-- </div>
+    </div> -->
+<!-- 
+  </div>
+
+
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+      <div class="card-body mx-1 border boder-danger">
+        {% load static %}
+        <img class="card-img-top" src="{% static "acgapplication/fumbire.jpg" %}" alt="Card image cap">
+        <div class="card-footer">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card-body mx-1 border boder-danger">
+        {% load static %}
+        <img class="card-img-top " src="{% static "acgapplication/ifumbire.jpg" %}" alt="Card image cap">
+        <div class="card-footer">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card-body mx-1 border boder-danger ">
+        {% load static %}
+        <img class="card-img-top border boder-dark" src="{% static "acgapplication/npk.jpg" %}" alt="Card image cap">
+        <div class="card-footer">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="card-group design-bground">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12">
+          <div class="card-body">
+            <h5 class="card-title text-center">title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to additional content.
+              This card has supporting text below as a natural lead-in to additional content
+              This is a wider card with supporting text below as a natural lead-in to additional content. This content
+              is a little bit longer.</p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<!-- <div class="container">
+                    <div class="ifumbire-image">
+                        {%load static%}
+                        <img src="{% static "../static/la.jpg" %}">
+                        <br>
+                    </div>
+
+                </div> -->
+<br>
+<footer>
+  {% include "acgapplication/footer.html" %}
+</footer>
+
+{% endblock %}

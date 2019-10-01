@@ -1,0 +1,64 @@
+{% extends 'acgapplication/base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="about-image">
+                {%load static%}
+                <img class="image-about" src="{% static "acgapplication/slide.png" %}">
+                <br>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about-content">
+                <h1>ABOUT US</h1>
+                <hr>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+</div>
+<section id="goals-mission">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 project-mission">
+                    <h3>Project mission</h3>
+                    <p>
+                        The project mission is also to secure the shortage of organic fertilizers, conserving natural
+                        resources,
+                        save the environment and creation of many employments for poverty reduction and sustainable
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 vision-goals">
+                    <h3>Project vision</h3>
+                    <p>
+                        To be leader company with many industries to supply different types of fertilizers by reducing
+                        the imported
+                        fertilizers for achieving food market security and sustainable development worldwide.
+
+                    </p>
+                </div>
+                <div class="col-md-6 vision-goals">
+                    <h3>Project goals</h3>
+                    <p>
+                        To supply the sufficient fertilizers all over the Rwandan territory by saving the environment
+                        at 70% of the needs within only 5 years and within 20 years for being the best supplier company
+                        of different types of fertilizers worldwide.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    {% include "acgapplication/footer.html" %}
+</footer>
+
+{% endblock %}

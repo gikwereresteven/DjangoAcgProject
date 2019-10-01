@@ -1,0 +1,261 @@
+{% extends 'acgapplication/base.html' %}
+
+{% block content %}
+div class="text-center top-space">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-8">
+
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container  main-body">
+    <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-sm-2">
+            <ul class="list-group imbuto-menu">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <ul class="nav flex-column">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="{% url 'imbuto' %}">Imbuto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'imishwi' %}">Imishwi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'ifumbire' %}">Ifumbire</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-md-3 py-5">
+            <div class="album">
+                <div class="card"> {% load static %}
+                    <img class="imishwi_images" class="imishwi_images" src="{% static "acgapplication/imi.jpg" %}"><br>
+                    Amagi
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 py-5">
+            <div class="album">
+                <div class="card"> {% load static %}
+                    <img class="imishwi_images" src="{% static "acgapplication/imishwi.png" %}"><br>
+                    Imishwi
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="album py-5">
+                <div class="card"> {% load static %}
+                    <img class="imishwi_images" src="{% static "acgapplication/isahani.jpg" %}"><br>
+                    Amagi
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+                    <div class="album">
+                        <div class="card">
+                            <br>{% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/icare.png" %}"><br>
+                            fruits
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album ">
+                        <div class="card">
+                            <br> {% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/inkoko.png" %}"><br>
+                            fruits
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album">
+                        <div class="card">
+                            <br> {% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/two.jpg" %}"><br>
+                            fruits
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2">
+                              <div class="album py-1">
+                                      <div class="card">
+                                             {% load static %}
+                                              <img src="{% static "../static/isake.png" %}"><br>
+                                          <b>fruits</b>
+                                          </div>
+                              </div>
+                        </div> -->
+                <!-- <div class="col-md-3">
+                              <div class="album py-1">
+                                      <div class="card"> {% load static %}
+                                              <img src="{% static "../static/igi.jpg" %}"><br>
+                                          <b>fruits</b>
+                                          </div>
+                              </div>
+                        </div> -->
+                <!-- <div class="col-md-2">
+                              <div class="album py-1">
+                                      <div class="card"> {% load static %}
+                                              <img src="{% static "../static/amatunda.png" %}"><br>
+                                          <b>fruits</b>
+                                          </div>
+                              </div>
+                        </div> -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+                    <div class="album py-1">
+                        <div class="card"> {% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/isake.jpg" %}">
+                            <br>
+
+                            fruits
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album py-1">
+                        <div class="card"> {% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/inkokon.jpg" %}">
+                            <br>
+
+                            fruits
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album py-1">
+                        <div class="card"> {% load static %}
+                            <img class="imishwi_images" src="{% static "acgapplication/yoo.jpg" %}"><br>
+
+                            fruits
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2">
+                            <div class="album py-1">
+                                    <div class="card"> {% load static %}
+                                            <img src="{% static "../static/amatunda.png" %}"><br>
+                                        <b>fruits</b>
+                                        </div>
+                            </div>
+                      </div> -->
+                <!-- <div class="col-md-2">
+                            <div class="album py-1">
+                                    <div class="card"> {% load static %}
+                                            <img src="{% static "../static/amatunda.png" %}"><br>
+                                        <b>fruits</b>
+                                        </div>
+                            </div>
+                      </div>
+                  </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+
+
+
+    <!-- 
+           <div class="container text-center">
+                <div section="hello">
+                        
+                  <div class="row">
+                        <div class="album py-5">
+                    <div class="col-md-3">
+                            <div class="card"> {% load static %}
+                                    <img src="{% static "../static/amatunda.png" %}"><br>
+                                    <b>fruits</b></div>
+                    </div>
+                  </div>
+                    </div>
+                    <div class="album py-5">
+                    <div class="col-md-3">
+                            <div class="card"> {% load static %}
+                                    <img src="{% static "../static/amatunda.png" %}"><br>
+                                    <b>fruits</b></div>
+                    </div>
+                     </div>
+                    </div>
+                     <div class="col-md-3">
+                            <div class="card"> {% load static %}
+                                    <img src="{% static "../static/amatunda.png" %}"><br>
+                                    <b>fruits</b></div>
+                    </div>
+                       </div>
+                       <div class="col-md-3">
+                            <div class="card"> {% load static %}
+                                    <img src="{% static "../static/amatunda.png" %}"><br>
+                                    <b>fruits</b></div>
+                    </div>
+                             </div>
+         
+                  </div>
+                </div> -->
+</div>
+</div>
+<footer>
+    {% include "acgapplication/footer.html" %}
+</footer>
+
+{% endblock %}
