@@ -33,29 +33,22 @@ def about(request):
       
 
 def contact(request):
+    submitted = False
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
+            form.cleaned_data
+            post = form.save(commit=False)
+            post.author = request.user
+            post.save()
+            submitted =True
+           
+            form = ContactForm()
             # send email code goes here
-          return render(request,'acgapplication/contact.html', {'contact':form})
+        return render(request,'acgapplication/contact.html', {'form':form, 'submitted': submitted})
     else:
         form = ContactForm()
-
-   
     return render(request,'acgapplication/contact.html', {'form':form})
 
-# def postform(request):
-    
-#     if request.method == 'POST':
-#         if request.POST.get('name') and request.POST.get('email') and request.POST.get('message'):
-#             post = Post()
-#             post.name = request.POST('name')
-#             post.email = request.POST('email')
-#             post.name = request.POST('message')
-#             post.save()
-          
-        
-#         else:
-#             return render(request,'acgapplication/contact.html', {'form': form})
             
 

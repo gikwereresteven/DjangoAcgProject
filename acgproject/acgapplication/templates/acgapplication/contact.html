@@ -2,34 +2,38 @@
 
 {% block content %}
 <div class="container">
-    <!-- {% if submitted %}
+   
+    <div class="row">
+
+      <div class="col-md-2">
+      
+      </div>
+      <div class="col-md-8">
+         
+      
+<form method="post" class="contact-form">
+    <h2>Contact Us</h2>
+    {% if submitted %}
     <div class="success">
        <h6 class="red-text text-center" style="background-color: coral; height: 30px; border-radius: 10px;"><p class="text-white"> message was submitted successfully. Thank you</p></h6> 
     </div>
     
     <br>
-    {% endif %}  -->
-    <div class="row">
-
-      <div class="col-md-3">
-        {%load static%}
-                              <img  src="{% static "../static/ifumbi.jpg" %}">
-      </div>
-      <div class="col-md-6">
-      
-<form method="post" class="contact-form">
-    <h2>Contact Us</h2>
+    {% endif %} 
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" class="btn-success" value="Send Message" />
 </form>
       </div>
-      <div class="col-md-3">
-       hhhhhhhhh
+      <div class="col-md-2">
+     
       </div>
 
 
     </div>
   </div>
+  <footer>
+      {% include "acgapplication/footer.html" %}
+  </footer>
 
 {% endblock %}
