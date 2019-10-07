@@ -10,10 +10,10 @@ body{
 .navbar{
     background: rgb(253, 255, 254);
     color:whitesmoke;
+    box-shadow: 2px 0px 10px 2px #f0efef;
+ 
 }
 .navbar-brand img {
-   width: 100px;
-   height: 40px;
    margin-left: 100px;
    margin-top:10px;
 }
@@ -25,6 +25,7 @@ body{
     background-color: #333;
     margin-left: 50px;
     width: 80px;
+   
 }
 .navbar-nav li {
     padding: 0 10px;
@@ -43,8 +44,8 @@ body{
 .navbar-nav li {
     padding: 0 10px;
 }
-.nav-item a {
-    color: black;
+.nav-item a:hover {
+    background-color: #3653376c;
 }
 .nav li a {
     display: block;
@@ -55,7 +56,7 @@ body{
     width: 80px;  
 }
 .ul li a:hover {
-    background-color: rgba(87, 66, 66, 5.096);
+    background-color:#080808;
     width: 115px;
 }
 .navbar-brand img{
@@ -65,20 +66,19 @@ body{
 }
 .carousel-inner{
    width:100%;
-   height: 500px;
-    margin-top: 90px;
-
+   height: 400px;
+    /* margin-top: 90px; */
 }
 .contact-form {
     margin-top: 110px;
-    height: 360px;
-    box-shadow: 2px 0px 50px 2px #888888;
-    text-align: center;
+    height: 370px;
     text-emphasis: size;
-    background-color: #b3bbb302;
-    color:rgb(49, 36, 36);
-    border-radius: 20px;
-    margin-bottom: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    /* box-shadow: -1px 10px 20px 10px #e2e2e2; */
+    width: 100%;
 }
 .text-center {
     margin-top: 10px;
@@ -106,7 +106,6 @@ body{
     box-shadow: 20px 20px 10px #888888;
 }
 .awasome{
-   
     font-family: 'Princess Sofia', cursive;
     text-shadow: 1px 1px black;
     color: #011A98 !important;
@@ -155,6 +154,7 @@ body{
     box-shadow: 15px 15px 8px 10px rgba(0, 0, 0, 0.2);
     /* this adds the "card" effect */
     padding: 6px;
+ 
     text-align: center;
     background-color: #f1f1f1;
     margin-top: 50px;
@@ -246,10 +246,14 @@ body{
     font-size: 30px;
 }
 .btn-success{
-    text-align: center;
     background-color: rgba(23, 126, 100, 0.801);
     margin-bottom: 7px;
     border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font-style: oblique;
+    font-size-adjust: inherit;
+    font-size: 15px;
 }
 .card-img-top{
     width: 100%;
@@ -265,7 +269,6 @@ body{
 }
 .footer-content{
     padding-top: 30px;  
-    box-shadow: 5px 2px 15px 3px #888888;
 }
 .social-media{
     width: 100px;
@@ -275,16 +278,65 @@ body{
     margin-top: 30px;   
 }
 #goals-mission{
-  padding-top:10px; 
+    padding:10px 0px 0px 5% ; 
     position: relative;
     margin-top: 50px;
     color:#080808;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
 }
 .vision-goals{
     background-color: #fffbfbc7;
     color:black;
-    margin-top:7%;
+    box-shadow: -1px 5px 10px 2px #554d4d;
+    margin-bottom: 20px;
+    margin:15px;
+    padding-top:10px; 
+    position: relative;
+    margin-top: 50px;
+    display: block;
 }
-/* .card-img-top{
-    box-shadow: 10px 10px 5px rgba(0,0,0,0.4);
-} */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 7px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+     /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  /* unvisited link */
+/* a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  /* a:visited {
+    color: green;
+  } */
+  
+  /* mouse over link */ */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  
